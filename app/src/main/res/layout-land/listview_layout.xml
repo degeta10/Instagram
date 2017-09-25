@@ -60,36 +60,38 @@
                 android:id="@+id/Linear2b"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:weightSum="1">
 
                 <TextView
                     android:id="@+id/price"
-                    android:layout_width="50dp"
+                    android:layout_width="103dp"
                     android:layout_height="match_parent"
-                    android:text="Rs.20"
-                    android:gravity="center"/>
+                    android:gravity="center"
+                    android:text="Rs.20" />
+
                 <TextView
                     android:id="@+id/rating"
-                    android:layout_width="50dp"
+                    android:layout_width="103dp"
                     android:layout_height="match_parent"
-                    android:text="3.9"
+                    android:layout_marginLeft="30dp"
                     android:gravity="center"
-                    android:layout_marginLeft="30dp"/>
+                    android:text="3.9" />
 
                 <ImageView
                     android:id="@+id/star"
-                    android:layout_width="50dp"
+                    android:layout_width="103dp"
                     android:layout_height="match_parent"
                     android:scaleType="centerInside"
-                    app:srcCompat="@drawable/ic_star"/>
+                    app:srcCompat="@drawable/ic_star" />
 
                 <TextView
                     android:id="@+id/time"
-                    android:layout_width="50dp"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="20mins"
+                    android:layout_marginLeft="30dp"
                     android:gravity="center"
-                    android:layout_marginLeft="30dp"/>
+                    android:text="20mins" />
             </LinearLayout>
 
         </LinearLayout>

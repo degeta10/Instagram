@@ -30,6 +30,7 @@ public class HomeActivity extends AppCompatActivity {
     String PRICE[]={"Rs.80","Rs.80","Rs.80","Rs.80","Rs.80","Rs.80","Rs.80","Rs.80","Rs.80","Rs.80","Rs.80","Rs.80","Rs.80","Rs.80","Rs.80",};
     String TIME[]={"20mins","20mins","20mins","20mins","20mins","20mins","20mins","20mins","20mins","20mins","20mins","20mins","20mins","20mins","20mins",};
     String RATING[]={"3.9","3.9","3.9","3.9","3.9","3.9","3.9","3.9","3.9","3.9","3.9","3.9","3.9","3.9","3.9",};
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
